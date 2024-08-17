@@ -6,5 +6,10 @@ use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
-    //
+    public function index()
+    {
+        return inertia('Frontend/Home', [
+            'title' => 'index pros',
+        ]);
+    }
 }
