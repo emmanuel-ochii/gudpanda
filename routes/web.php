@@ -9,8 +9,6 @@ use Inertia\Inertia;
 //     return inertia('Index/Index');
 // });
 
-
-Route::get('/', [IndexController::class,'index']);
 Route::get('/show', [IndexController::class,'show']);
 
-Route::get('/test', [FrontendController::class,'index']);
+Route::get('/', [FrontendController::class,'index']);

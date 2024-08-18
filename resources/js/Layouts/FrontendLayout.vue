@@ -8,7 +8,7 @@
                         <div class="top-bar-left">
                             <ul class="top-left-list">
                                 <li><a href="about.html">About</a></li>
-                                <li><a href="contact.html">My Account</a></li>
+                                <!-- <li><a href="contact.html">My Account</a></li> on login -->
                                 <li><a href="wishlist.html">Wishlist</a></li>
                                 <li><a href="checkout.html">Checkout</a></li>
                             </ul>
@@ -19,9 +19,11 @@
                     </div>
                 </div>
             </div>
+
             <div class="header-middle">
                 <div class="container">
                     <div class="header-middle-inner">
+
                         <div class="header-middle-left">
                             <div class="header-logo d-lg-block">
                                 <a href="index.html">
@@ -33,13 +35,23 @@
                                     <span class="current">Categories</span>
                                     <ul class="list">
                                         <li data-value="" class="option selected focus">Categories</li>
-                                        <li data-value="vdt" class="option">Fashion</li>
-                                        <li data-value="can" class="option">Organic</li>
+                                        <li data-value="vdt" class="option">Accessories</li>
+                                        <li data-value="vdt" class="option">Appliances</li>
+                                        <li data-value="can" class="option">Automotive</li>
+                                        <li data-value="uk" class="option">Beauty</li>
+                                        <li data-value="uk" class="option">Books</li>
+                                        <li data-value="uk" class="option">Clothing</li>
+                                        <li data-value="uk" class="option">Electronics</li>
                                         <li data-value="uk" class="option">Furniture</li>
+                                        <li data-value="uk" class="option">Home & Garden</li>
+                                        <li data-value="uk" class="option">Jewelry</li>
+                                        <li data-value="uk" class="option">Kids & Baby</li>
+                                        <li data-value="uk" class="option">Sports & Outdoors</li>
+                                        <li data-value="uk" class="option">Toys & Games</li>
                                     </ul>
                                 </div>
                                 <div class="category-form-wrap">
-                                    <form class="header-form" action="mail.php">
+                                    <form class="header-form" action="#">
                                         <input class="form-control" type="text" name="search"
                                             placeholder="Search for products, categories or brands">
                                         <button class="submit rr-primary-btn">Search<i
@@ -48,6 +60,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="header-middle-right">
                             <ul class="contact-item-list">
                                 <li>
@@ -61,14 +74,16 @@
                                         <a href="cart.html" class="icon">
                                             <i class="fa-light fa-bag-shopping"></i>
                                         </a>
-                                        <span>$0.00</span>
+                                        <span>₦0.00</span>
                                     </div>
                                 </li>
                             </ul>
                         </div>
+
                     </div>
                 </div>
             </div>
+
             <div class="primary-header">
                 <div class="container">
                     <div class="primary-header-inner">
@@ -80,50 +95,23 @@
                         <div class="header-menu-wrap">
                             <div class="mobile-menu-items">
                                 <ul>
-                                    <li class="menu-item-has-children active">
-                                        <a href="index.html">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Fashion Home</a></li>
-                                            <li><a href="index-2.html">Grocery Home</a></li>
-                                            <li><a href="index-3.html">Furniture</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="shop.html">Shop</a>
-                                        <ul>
-                                            <li><a href="shop.html">Shop</a></li>
-                                            <li><a href="shop-grid.html">Shop Grid</a></li>
-                                            <li><a href="shop-details.html">Shop Details</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                        </ul>
+                                    <li>
+                                        <Link href="/"> Home </Link>
                                     </li>
                                     <li>
-                                        <a href="shop-grid.html">Women</a>
-                                    </li>
-                                    <li>
-                                        <a href="shop-grid.html">men</a>
+                                        <a href="#"> Shop </a>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
+                                        <a href="#">About Us</a>
                                         <ul>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="register.html">Register</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
-                                            <li><a href="error.html">404 Error</a></li>
+                                            <li><a href="#">What We Do</a></li>
+                                            <li><a href="#">Join Our Team</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="blog-grid.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-grid-2.html">Blog list</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#"> Become A Giver</a></li>
+                                    <li><a href="#"> Bid </a></li>
+                                    <li><a href="#"> FAQs </a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -145,24 +133,10 @@
         </header>
         <!-- /.Main Header -->
     </div>
-    <!--
-    <Link href="/"> Home </Link>
-    <Link href="/show"> Show </Link>
 
-    -->
     <slot>Default</slot>
 </template>
 
 <script setup>
 import { Link } from "@inertiajs/vue3";
 </script>
-
-<script>
-export default {
-    mounted() {
-        this.$inertia.layout = 'layouts.frontend';
-    }
-}
-</script>
-
-
