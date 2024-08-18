@@ -1,5 +1,6 @@
 <template>
 
+    <Head :title="title" />
     <section class="hero-section-2 pt-60">
         <div class="container">
             <div class="row gy-lg-0 gy-4 justify-content-center">
@@ -1299,11 +1300,20 @@
 
 <script setup>
 import { Link } from '@inertiajs/vue3';
-// defineProps({ title: String });
+import { onMounted } from 'vue';
+import { Head } from '@inertiajs/vue3';
+import FrontendLayout from "../../Layouts/FrontendLayout.vue";
+
+const props = defineProps({
+    title: String
+});
+
+onMounted(() => {
+    document.title = props.title;
+});
 </script>
 
 <script>
-import FrontendLayout from "../../Layouts/FrontendLayout.vue";
 export default {
     layout: FrontendLayout
 }

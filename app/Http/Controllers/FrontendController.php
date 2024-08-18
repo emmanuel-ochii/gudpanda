@@ -6,52 +6,45 @@ use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
-    public function index()
-    {
+    public function index() {
         return inertia('Frontend/Home', [
-            'title' => 'index pros',
+            'title' => 'Home - Gudpanda'
         ]);
     }
 
-    public function shop()
-    {
+    public function shop() {
         return inertia('Frontend/Shop', [
-            'title' => 'index pros',
+            'title' => 'Shop - Gudpanda'
         ]);
     }
 
-    public function becomeAGiver()
-    {
+    public function becomeAGiver() {
         return inertia('Frontend/BecomeAGiver', [
-            'title' => 'index pros',
+            'title' => 'Become a Giver - Gudpanda'
         ]);
     }
 
-    public function bid()
-    {
+    public function bid() {
         return inertia('Frontend/Bid', [
-            'title' => 'index pros',
+            'title' => 'Bid - Gudpanda'
         ]);
     }
 
-    public function contact()
-    {
+    public function contact() {
         return inertia('Frontend/Contact', [
-            'title' => 'index pros',
+            'title' => 'Contact Us - Gudpanda'
         ]);
     }
 
-    public function about()
-    {
+    public function about() {
         return inertia('Frontend/About', [
-            'title' => 'index pros',
+            'title' => 'About Us - Gudpanda'
         ]);
     }
 
-    public function faq()
-    {
+    public function faq() {
         return inertia('Frontend/Faq', [
-            'title' => 'index pros',
+            'title' => 'FAQ - Gudpanda'
         ]);
     }
 }

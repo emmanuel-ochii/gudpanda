@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
 
-    <!-- Site Title -->
-    <title> Gudpanda | Official Site </title>
+    <!-- Dynamic Site Title -->
+    <title>@inertiaHead</title>
 
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/img/favicon.png') }}">
@@ -26,7 +26,7 @@
 
     <!-- Scripts -->
     @vite('resources/js/app.js')
-    @inertiaHead
+    {{-- @inertiaHead --}}
 
 </head>
 
