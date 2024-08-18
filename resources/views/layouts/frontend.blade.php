@@ -20,7 +20,7 @@
         'resources/frontend/css/venobox.min.css',
         'resources/frontend/css/odometer.min.css',
         'resources/frontend/css/nice-select.css',
-        'resources/frontend/css/swiper.css',
+        'resources/frontend/css/swiper.min.css',
         'resources/frontend/css/main.css',
     ])
 
