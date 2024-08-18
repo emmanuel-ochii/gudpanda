@@ -103,7 +103,7 @@
                                     <Link href="/shop"> Shop </Link>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">About Us</a>
+                                    <Link href="/about">About Us</Link>
                                     <ul>
                                         <li><a href="#">What We Do</a></li>
                                         <li><a href="#">Join Our Team</a></li>
