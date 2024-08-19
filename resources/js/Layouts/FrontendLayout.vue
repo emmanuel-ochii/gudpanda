@@ -1,7 +1,7 @@
 <template>
     <!-- header-area-start -->
     <header class="header header-2 sticky-active" style="--rr-color-theme-primary: #E53E3E">
-        <div class="top-bar">
+        <div class="top-bar" style="border-top: 5px solid #E53E3E;">
             <div class="container">
                 <div class="top-bar-inner">
                     <div class="top-bar-left">
@@ -71,7 +71,7 @@
                             </li>
                             <li><Link href="#" class="login-btn">Login / Register</Link></li>
                             <li>
-                                <div class="header-cart-btn">
+                                <div class="header-cart-btn bg-black">
                                     <a href="#" class="icon">
                                         <i class="fa-light fa-bag-shopping"></i>
                                     </a>
@@ -85,7 +85,7 @@
             </div>
         </div>
 
-        <div class="primary-header">
+        <div class="primary-header bg-black">
             <div class="container">
                 <div class="primary-header-inner">
                     <div class="header-logo mobile-logo">

@@ -4315,8 +4315,8 @@ START: Header CSS
   color: var(--rr-color-heading-primary);
 }
 .hero-list li a i {
-  background: rgba(103, 176, 46, 0.12);
-  color: var(--rr-color-theme-green);
+  background: rgba(176, 46, 46, 0.12);
+  color: var(--rr-color-theme-primary);
   height: 20px;
   width: 20px;
   display: inline-flex;
@@ -5577,8 +5577,8 @@ START: Blog CSS
   border-bottom: 1px solid rgba(26, 26, 26, 0.08);
 }
 .product-content .category {
-  background: rgba(103, 176, 46, 0.1);
-  color: var(--rr-color-theme-green);
+  background: rgba(176, 46, 46, 0.1);
+  color: var(--rr-color-theme-primary);
   font-size: 10px;
   font-weight: 500;
   border-radius: 4px;

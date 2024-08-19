@@ -43,7 +43,7 @@ class FrontendController extends Controller
     }
 
     public function faq() {
-        return inertia('Frontend/Faq', [
+        return inertia('Frontend/Faqs', [
             'title' => 'FAQ - Gudpanda'
         ]);
     }

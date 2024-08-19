@@ -1,6 +1,7 @@
 <template>
 
     <Head :title="title" />
+
     <section class="hero-section-2 pt-60">
         <div class="container">
             <div class="row gy-lg-0 gy-4 justify-content-center">
@@ -24,8 +25,7 @@
                         <div class="hero-item-content">
                             <span class="sub-title">Get up to 30% off on your first ₦150 purchase</span>
                             <h3 class="title">Organic Grocery <span>₦69.00</span></h3>
-                            <a href="shop-grid.html" class="rr-primary-btn">Shop Now <i
-                                    class="fa-regular fa-arrow-right"></i></a>
+                            <a href="shop-grid.html" class="rr-primary-btn" style="    background-color: var(--rr-color-theme-primary);">Shop Now <i class="fa-regular fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@
                             <span class="price">₦257.00 <span class="offer">₦450.00</span></span>
                         </div>
                         <div class="product-bottom">
-                            <a href="cart.html">Add To Cart</a>
+                            <a href="cart.html" style="    background-color: var(--bs-black);">Add To Cart</a>
                         </div>
                     </div>
                 </div>
