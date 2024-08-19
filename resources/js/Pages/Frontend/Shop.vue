@@ -14,7 +14,7 @@
                         </span>
                         <span class="icon"><i class="fa-solid fa-angle-right"></i></span>
                         <span class="inner">
-                            <span>Shop Grid</span>
+                            <span>Shop </span>
                         </span>
                     </h4>
                 </div>
