@@ -5,7 +5,7 @@
             <div class="shape"><img src="assets/img/shapes/page-header-shape.png" alt="shape"></div>
             <div class="container">
                 <div class="page-header-content">
-                    <h1 class="title">Shop Grid</h1>
+                    <h1 class="title">Shop</h1>
                     <h4 class="sub-title">
                         <span class="home">
                             <a href="#">

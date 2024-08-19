@@ -297,7 +297,6 @@
             </div>
         </div>
         <!-- ./ sponsor-section -->
-
 </template>
 
 
