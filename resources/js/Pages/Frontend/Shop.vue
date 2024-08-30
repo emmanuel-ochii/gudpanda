@@ -2,7 +2,7 @@
     <Head :title="title" />
 
     <section class="page-header">
-            <div class="shape"><img src="assets/img/shapes/page-header-shape.png" alt="shape"></div>
+            <div class="shape"><img src="frontend/img/shapes/page-header-shape.png" alt="shape"></div>
             <div class="container">
                 <div class="page-header-content">
                     <h1 class="title">Shop</h1>

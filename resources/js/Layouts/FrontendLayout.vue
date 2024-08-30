@@ -6,7 +6,9 @@
                 <div class="top-bar-inner">
                     <div class="top-bar-left">
                         <ul class="top-left-list">
-                            <li><Link href="/about">About</Link></li>
+                            <li>
+                                <Link href="/about">About</Link>
+                            </li>
                             <!-- <li><a href="contact.html">My Account</a></li> on login -->
                             <li><a href="#">Wishlist</a></li>
                             <li><a href="#">Checkout</a></li>
@@ -26,7 +28,7 @@
                     <div class="header-middle-left">
                         <div class="header-logo d-lg-block">
                             <Link href="/">
-                                <img src="frontend/img/logo/logo-3.png" alt="Logo">
+                            <img src="frontend/img/logo/logo-3.png" alt="Logo">
                             </Link>
                         </div>
                         <div class="form-wrap">
@@ -69,7 +71,9 @@
                                     <i class="fa-sharp fa-regular fa-heart"></i>
                                 </a>
                             </li>
-                            <li><Link href="#" class="login-btn">Login / Register</Link></li>
+                            <li>
+                                <Link href="#" class="login-btn">Login / Register</Link>
+                            </li>
                             <li>
                                 <div class="header-cart-btn bg-black">
                                     <a href="#" class="icon">
@@ -90,7 +94,7 @@
                 <div class="primary-header-inner">
                     <div class="header-logo mobile-logo">
                         <Link href="/">
-                            <!-- <img src="frontend/img/logo/logo-2.png" alt="Logo"> -->
+                        <!-- <img src="frontend/img/logo/logo-2.png" alt="Logo"> -->
                         </Link>
                     </div>
                     <div class="header-menu-wrap">
@@ -109,10 +113,18 @@
                                         <li><a href="#">Join Our Team</a></li>
                                     </ul>
                                 </li>
-                                <li><Link href="/become-a-giver"> Become A Giver</Link></li>
-                                <li><Link href="bid"> Bid </Link></li>
-                                <li><Link href="faq"> FAQs </Link></li>
-                                <li><Link href="contact">Contact</Link></li>
+                                <li>
+                                    <Link href="/become-a-giver"> Become A Giver</Link>
+                                </li>
+                                <li>
+                                    <Link href="bid"> Bid </Link>
+                                </li>
+                                <li>
+                                    <Link href="faq"> FAQs </Link>
+                                </li>
+                                <li>
+                                    <Link href="contact">Contact</Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -271,11 +283,21 @@
                             <h3 class="widget-title">Useful Links</h3>
                         </div>
                         <ul class="footer-list">
-                            <li><a href="contact.html">Privacy Policy</a></li>
-                            <li><a href="contact.html">Terms & Conditions</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                            <li><a href="blog-grid.html">Latest News</a></li>
-                            <li><a href="contact.html">Our Sitemaps</a></li>
+                            <li>
+                                <Link href="/">Privacy Policy</Link>
+                            </li>
+                            <li>
+                                <Link href="/">Terms & Conditions</Link>
+                            </li>
+                            <li>
+                                <Link href="/">Contact Us</Link>
+                            </li>
+                            <li>
+                                <Link href="/">Latest News</Link>
+                            </li>
+                            <li>
+                                <Link href="/">Our Sitemaps</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -308,8 +330,9 @@
                     <div class="col-lg-6">
                         <div class="footer-img-wrap">
                             <span>Acceptable Payments:</span>
-                            <div class="footer-img"><a href="#"><img src="frontend/img/images/footer-img-1.png"
-                                        alt="img"></a></div>
+                            <div class="footer-img">
+                                <Link href="/"><img src="frontend/img/images/footer-img-1.png" alt="img"></Link>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
