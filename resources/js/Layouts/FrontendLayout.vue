@@ -28,7 +28,7 @@
                     <div class="header-middle-left">
                         <div class="header-logo d-lg-block">
                             <Link href="/">
-                            <img src="frontend/img/logo/logo-3.png" alt="Logo">
+                            <img src="../../frontend/img/logo/logo-3.png" alt="Logo">
                             </Link>
                         </div>
                         <div class="form-wrap">
@@ -190,7 +190,7 @@
             <div class="footer-items">
                 <div class="footer-item">
                     <div class="icon">
-                        <img src="frontend/img/icon/footer-1.png" alt="icon">
+                        <img src="../../frontend/img/icon/footer-1.png" alt="icon">
                     </div>
                     <div class="content">
                         <h4 class="title">Free Shipping</h4>
@@ -199,7 +199,7 @@
                 </div>
                 <div class="footer-item">
                     <div class="icon">
-                        <img src="frontend/img/icon/footer-2.png" alt="icon">
+                        <img src="../../frontend/img/icon/footer-2.png" alt="icon">
                     </div>
                     <div class="content">
                         <h4 class="title">Free Returns</h4>
@@ -208,7 +208,7 @@
                 </div>
                 <div class="footer-item">
                     <div class="icon">
-                        <img src="frontend/img/icon/footer-3.png" alt="icon">
+                        <img src="../../frontend/img/icon/footer-3.png" alt="icon">
                     </div>
                     <div class="content">
                         <h4 class="title">Secured Payments</h4>
@@ -217,7 +217,7 @@
                 </div>
                 <div class="footer-item item-2">
                     <div class="icon">
-                        <img src="frontend/img/icon/footer-4.png" alt="icon">
+                        <img src="../../frontend/img/icon/footer-4.png" alt="icon">
                     </div>
                     <div class="content">
                         <h4 class="title">Customer Service</h4>
@@ -331,7 +331,7 @@
                         <div class="footer-img-wrap">
                             <span>Acceptable Payments:</span>
                             <div class="footer-img">
-                                <Link href="/"><img src="frontend/img/images/footer-img-1.png" alt="img"></Link>
+                                <Link href="/"><img src="../../frontend/img/images/footer-img-1.png" alt="img"></Link>
                             </div>
                         </div>
                     </div>
