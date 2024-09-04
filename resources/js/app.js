@@ -1,6 +1,6 @@
 import { createApp, h } from 'vue'
 import { createInertiaApp } from '@inertiajs/vue3'
-import FrontendLayout from '@/Layouts/FrontendLayout.vue'
+// import FrontendLayout from '@/Layouts/FrontendLayout.vue'
 
 // Importing vendor JS files
 import '../frontend/js/vendor/jquary-3.6.0.min';
