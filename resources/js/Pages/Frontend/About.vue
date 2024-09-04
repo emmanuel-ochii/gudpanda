@@ -3,7 +3,7 @@
     <Head :title="title" />
 
     <section class="page-header">
-        <div class="shape"><img src="frontend/img/shapes/page-header-shape.png" alt="shape"></div>
+        <div class="shape"><img src="../../../frontend/img/shapes/page-header-shape.png" alt="shape"></div>
         <div class="container">
             <div class="page-header-content">
                 <h1 class="title">About Us</h1>
@@ -153,14 +153,14 @@
                                 quality organic produce grown.</p>
                         </div>
                         <div class="service-img">
-                            <img src="frontend/img/service/service-1.png" alt="service">
+                            <img src="../../../frontend/img/service/service-1.png" alt="service">
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-12">
                     <div class="service-item item-2">
                         <div class="service-img top-area">
-                            <img src="frontend/img/service/service-2.png" alt="service">
+                            <img src="../../../frontend/img/service/service-2.png" alt="service">
                         </div>
                         <div class="service-content text-center">
                             <span class="number">02</span>
@@ -179,7 +179,7 @@
                                 quality organic produce grown.</p>
                         </div>
                         <div class="service-img">
-                            <img src="frontend/img/service/service-3.png" alt="service">
+                            <img src="../../../frontend/img/service/service-3.png" alt="service">
                         </div>
                     </div>
                 </div>

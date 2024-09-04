@@ -14,7 +14,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/img/favicon.png') }}">
 
     {{-- CSS Files --}}
-    @vite([
+    {{-- @vite([
         'resources/frontend/css/bootstrap.min.css',
         'resources/frontend/css/fontawesome.min.css',
         'resources/frontend/css/venobox.min.css',
@@ -22,10 +22,9 @@
         'resources/frontend/css/nice-select.css',
         'resources/frontend/css/swiper.min.css',
         'resources/frontend/css/main.css',
-    ])
+    ]) --}}
+    @vite(['resources/css/app.css'])
 
-    <!-- Scripts -->
-    @vite('resources/js/app.js')
     {{-- @inertiaHead --}}
 
 </head>
@@ -34,7 +33,10 @@
     @inertia
 
 
-    @vite([
+
+    <!-- Scripts -->
+    @vite('resources/js/app.js')
+    {{-- @vite([
         'resources/frontend/js/vendor/jquary-3.6.0.min.js',
         'resources/frontend/js/vendor/bootstrap-bundle.js',
         'resources/frontend/js/vendor/imagesloaded-pkgd.js',
@@ -51,7 +53,8 @@
         'resources/frontend/js/ajax-form.js',
         'resources/frontend/js/contact.js',
         'resources/frontend/js/main.js',
-        ])
+        ]) --}}
+
 </body>
 
 </html>
