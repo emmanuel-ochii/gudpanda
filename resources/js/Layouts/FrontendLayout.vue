@@ -109,8 +109,8 @@
                                 <li class="menu-item-has-children">
                                     <Link href="/about">About Us</Link>
                                     <ul>
-                                        <li><a href="#">What We Do</a></li>
-                                        <li><a href="#">Join Our Team</a></li>
+                                        <li><Link href="/what-we-do">What We Do</Link></li>
+                                        <li><Link href="/join-our-team">Join Our Team</Link></li>
                                     </ul>
                                 </li>
                                 <li>

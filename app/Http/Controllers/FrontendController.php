@@ -47,4 +47,16 @@ class FrontendController extends Controller
             'title' => 'FAQ - Gudpanda'
         ]);
     }
+
+    public function whatWeDo() {
+        return inertia('Frontend/WhatWeDo', [
+            'title' => 'What We Do - Gudpanda'
+        ]);
+    }
+
+    public function joinOurTeam() {
+        return inertia('Frontend/JoinOurTeam', [
+            'title' => 'Join Our Team - Gudpanda'
+        ]);
+    }
 }

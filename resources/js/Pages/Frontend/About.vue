@@ -148,15 +148,21 @@
                     <div class="service-item">
                         <div class="service-content top-area text-center">
                             <span class="number">01</span>
-                            <h3 class="title">24/7 Support Service</h3>
-                            <p>Understanding the sometimes harmful methods of modern agriculture, we started a niche for
-                                quality organic produce grown.</p>
+                            <h3 class="title">Our Mission</h3>
+                            <p>
+                                Our mission is to provide a reliable and dynamic online marketplace where users can
+                                discover, gift, bid, and purchase unique items offering products that span various
+                                categories including Phones, Computers, Clothing, Shoes, Home Appliances, Books,
+                                healthcare, Baby Products, personal care and much more from around Nigeria and Africa at
+                                large.
+                            </p>
                         </div>
                         <div class="service-img">
                             <img src="../../../frontend/img/service/service-1.png" alt="service">
                         </div>
                     </div>
                 </div>
+
                 <div class="col-xl-4 col-lg-6 col-md-12">
                     <div class="service-item item-2">
                         <div class="service-img top-area">
@@ -164,19 +170,25 @@
                         </div>
                         <div class="service-content text-center">
                             <span class="number">02</span>
-                            <h3 class="title">Who We Are?</h3>
-                            <p>Understanding the sometimes harmful methods of modern agriculture, we started a niche for
-                                quality organic produce grown.</p>
+                            <h3 class="title">Our Vision</h3>
+                            <p>
+                                To build a community that connects and empowers Africans with each other and the rest of
+                                the world through Technology & Commerce.
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-xl-4 col-lg-6 col-md-12">
                     <div class="service-item">
                         <div class="service-content top-area text-center">
                             <span class="number">03</span>
-                            <h3 class="title">Best Offer & Discount</h3>
-                            <p>Understanding the sometimes harmful methods of modern agriculture, we started a niche for
-                                quality organic produce grown.</p>
+                            <h3 class="title">Our Team</h3>
+                            <p>
+                                Our team comprises passionate professionals dedicated to enhancing your shopping
+                                experience. Meet our founders, developers, customer support agents, and marketing
+                                experts.
+                            </p>
                         </div>
                         <div class="service-img">
                             <img src="../../../frontend/img/service/service-3.png" alt="service">
@@ -270,7 +282,7 @@
     </section>
     <!-- ./ testimonial-section -->
 
-    <div class="sponsor-section pt-100 pb-100">
+    <!-- <div class="sponsor-section pt-100 pb-100">
         <div class="container">
             <div class="row sponsor-wrap">
                 <div class="sponsor-item bd-right bd-bottom">
@@ -305,7 +317,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- ./ sponsor-section -->
 </template>
 

@@ -11,7 +11,7 @@
     <title>@inertiaHead</title>
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/img/favicon.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="frontend/img/favicon.png">
 
     {{-- CSS Files --}}
     @vite(['resources/css/app.css'])

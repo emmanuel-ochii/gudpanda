@@ -18,4 +18,6 @@ Route::prefix('/')->controller(FrontendController::class)->group(function () {
     Route::get('shop', 'shop');
     Route::get('faq', 'faq');
     Route::get('become-a-giver', 'becomeAGiver');
+    Route::get('what-we-do', 'whatWeDo');
+    Route::get('join-our-team', 'JoinOurTeam');
 });
