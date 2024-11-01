@@ -11,4 +11,16 @@ class AdminController extends Controller
             'title' => 'Welcome - Admin Portal'
         ]);
     }
+
+    public function allItems() {
+        return inertia('Admin/AllItems', [
+            'title' => 'All Items - Admin Portal'
+        ]);
+    }
+
+    public function usedItems() {
+        return inertia('Admin/UsedItems', [
+            'title' => 'Used Items - Admin Portal'
+        ]);
+    }
 }

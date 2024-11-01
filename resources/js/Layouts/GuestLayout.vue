@@ -72,7 +72,7 @@
                                 </a>
                             </li>
                             <li>
-                                <Link href="#" class="login-btn">Login / Register</Link>
+                                <Link href="/login" class="login-btn">Login / Register</Link>
                             </li>
                             <li>
                                 <div class="header-cart-btn bg-black">

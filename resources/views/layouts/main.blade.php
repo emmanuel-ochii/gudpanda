@@ -11,6 +11,9 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('guest/img/favicon.png')}}">
 
+    <!-- Ziggy routes for JavaScript -->
+    @routes
+    
     <!-- Include your CSS files -->
     @php
         // Get the current request path to determine which assets to load

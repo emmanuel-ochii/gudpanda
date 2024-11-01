@@ -205,15 +205,15 @@
         <div class="main-nav">
             <!-- Sidebar Logo -->
             <div class="logo-box">
-                <a href="#" class="logo-dark">
+                <Link :href="route('admin.home')" class="logo-dark">
                     <img :src="logoSm" class="logo-sm" alt="logo sm">
                     <img :src="logoDark" class="logo-lg" alt="logo dark">
-                </a>
+                </Link>
 
-                <a href="#" class="logo-light">
+                <Link :href="route('admin.home')" class="logo-light">
                     <img :src="logoSm" class="logo-sm" alt="logo sm">
                     <img :src="logoLight" class="logo-lg" alt="logo light">
-                </a>
+                </Link>
             </div>
 
             <!-- Menu Toggle Button (sm-hover) -->
@@ -228,12 +228,12 @@
                     <li class="menu-title">General</li>
 
                     <li class="nav-item">
-                        <LINK class="nav-link" href="/admin/dashboard">
+                        <Link class="nav-link" :href="route('admin.home')">
                         <span class="nav-icon">
                             <iconify-icon icon="solar:widget-5-bold-duotone"></iconify-icon>
                         </span>
                         <span class="nav-text"> Overview </span>
-                        </LINK>
+                        </Link>
                     </li>
 
                     <li class="nav-item">
@@ -247,19 +247,19 @@
                         <div class="collapse" id="sidebarProducts">
                             <ul class="nav sub-navbar-nav">
                                 <li class="sub-nav-item">
-                                    <LINK class="sub-nav-link" href="/admin/all-items"> All Items </LINK>
+                                    <Link class="sub-nav-link" href="/admin/all-items"> All Items</Link>
                                 </li>
                                 <li class="sub-nav-item">
-                                    <LINK class="sub-nav-link" href="/admin/all-items"> Used Items </LINK>
+                                    <Link class="sub-nav-link" :href="route('admin.usedItems')"> Used Items </Link>
                                 </li>
                                 <li class="sub-nav-item">
-                                    <LINK class="sub-nav-link" href="/admin/all-items"> Free Items </LINK>
+                                    <Link class="sub-nav-link" href="/admin/all-items"> Free Items </Link>
                                 </li>
                                 <li class="sub-nav-item">
-                                    <LINK class="sub-nav-link" href="/admin/all-items"> Swap Items </LINK>
+                                    <Link class="sub-nav-link" href="/admin/all-items"> Swap Items </Link>
                                 </li>
                                 <li class="sub-nav-item">
-                                    <LINK class="sub-nav-link" href="/admin/all-items"> Bid Items </LINK>
+                                    <Link class="sub-nav-link" href="/admin/all-items"> Bid Items </Link>
                                 </li>
                             </ul>
                         </div>
@@ -276,10 +276,10 @@
                         <div class="collapse" id="sidebarCategory">
                             <ul class="nav sub-navbar-nav">
                                 <li class="sub-nav-item">
-                                    <LINK class="sub-nav-link" href="/admin/all-items"> All Sections </LINK>
+                                    <Link class="sub-nav-link" href="/admin/all-items"> All Sections </Link>
                                 </li>
                                 <li class="sub-nav-item">
-                                    <LINK class="sub-nav-link" href="/admin/all-items"> All Category </LINK>
+                                    <Link class="sub-nav-link" href="/admin/all-items"> All Category </Link>
                                 </li>
                                 <li class="sub-nav-item">
                                     <a class="sub-nav-link" href="category-add.html">Create</a>
@@ -494,7 +494,7 @@
                             &copy; Gudpanda. Crafted by
                             <iconify-icon icon="iconamoon:heart-duotone"
                                 class="fs-18 align-middle text-danger"></iconify-icon> <a href="#"
-                                class="fw-bold footer-text" target="_blank">Team-meraga</a>
+                                class="fw-bold footer-text" target="_blank">WI-FI</a>
                         </div>
                     </div>
                 </div>
